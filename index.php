@@ -6,7 +6,7 @@ var_dump($array);
 //    echo "$key = $val"."</br>";
 //}
 
-
+drer
 //
 //$file = 'people.txt';
 //// Новый человек, которого нужно добавить в файл
