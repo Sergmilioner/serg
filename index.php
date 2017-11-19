@@ -6,7 +6,6 @@
 ////    echo "$key = $val"."</br>";
 ////}
 //
-//
 
 //
 //$file = 'people.txt';
