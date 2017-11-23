@@ -1,21 +1,20 @@
-<select>
+ <?php
+ $q = array(2, 5, -9, 7, -6, 1, 2, -45, 463, -26, 18, 16, -16);
+     $fl=true;
+     while ($fl)
+     {
+          $fl=false;
+           for ($i = 0; $i < count($q) - 1; $i++) {
+             if ($q[$i] > $q[$i + 1]) {
+                 $vr = $q[$i];
+                 $q[$i] = $q[$i + 1];
+                 $q[$i + 1] = $vr;
+                 $fl=true;
 
-    <?php
-    for ($i = 1910; $i<=2010;$i++){
-        echo "<option value=\"$i\">$i</option>";
-    }
-    ?>
-</select>
-
-
-
-
-<?php
-     $i = 1;
-     do
-     {echo $i;
-     $i++;
+             }
+         }
      }
-      while($i<10);
+var_dump($q);
 ?>
+
 
