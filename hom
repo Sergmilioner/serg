@@ -1,0 +1,16 @@
+//define('CONSTANT','МАЙ');
+//echo CONSTANT;
+
+
+
+//\define('MONTHS_OF_THE_YEAR',array('ЯНВАРЬ','ФЕВРАЛЬ','МАРТ','АПРЕЛЬ','МАЙ','ИЮНЬ','ИЮЛЬ','АВГУСТ','СЕНТЯБРЬ','ОКТЯБРЬ',
+//       'НОЯБРЬ','ДЕКАБРЬ'));
+//        echo MONTHS_OF_THE_YEAR[4];
+
+
+
+//$r= [0,1,2,3,4,5,6,7,8,9];
+//  foreach ($r as $value){
+  //     if ($value%3===0);
+  //     echo $r;
+ //  }
